@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <meta name="author" content="Bruno Sena">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace shadow" href="index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fdc50f" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="9" cy="19" r="2" />
+                <circle cx="17" cy="19" r="2" />
+                <path d="M3 3h2l2 12a3 3 0 0 0 3 2h7a3 3 0 0 0 3 -2l1 -7h-15.2" />
+            </svg> Tienda</a>
+        <a class="navegacion__enlace shadow navegacion__enlace--activo" href="nosotros.html">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fdc50f" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="12" cy="7" r="4" />
+                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+            </svg> Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1 class="shadow">Sobre Nosotros</h1>
+
+        <div class="nosotros">
+            <div class="nosotros__contenido">
+                <p> Vivamus eu faucibus risus. Donec pretium arcu vitae nulla finibus, non molestie sapien feugiat. Maecenas viverra ullamcorper commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent semper a nibh a gravida. Aenean tempor neque vel urna faucibus, iaculis vestibulum massa placerat. Integer lacinia maximus sem vitae euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla condimentum libero non odio pharetra imperdiet. Phasellus vehicula laoreet nisl ac pellentesque. Donec pharetra justo tellus, sed interdum diam egestas at. Mauris cursus nulla lacus, non ultricies enim rhoncus quis. Sed mollis ipsum libero, suscipit tristique mi ullamcorper eu. Praesent mattis mattis tristique.</p>
+                <p>Praesent nec augue arcu. Proin suscipit accumsan interdum. Donec auctor metus eu velit varius venenatis. Ut hendrerit dolor nunc, vitae ultricies urna ultrices in. </p>
+            </div>
+            <img class="nosotros__imagen" src="img/nosotros.jpg" alt="nosotros imagen">
+        </div>
+    </main>
+
+    <section class="contenedor comprar">
+        <h2 class="comprar__titulo shadow">¿Por qué comprar con nosotros?</h2>
+
+        <div class="bloques">
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_1.png" alt="porque comprar">
+                <h3 class="bloque__titulo shadow">El mejor precio</h3>
+                <p>Praesent nec augue arcu. Proin suscipit accumsan interdum.</p>
+            </div> <!-- .bloque -->
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_2.png" alt="porque comprar">
+                <h3 class="bloque__titulo shadow">Para Devs</h3>
+                <p>Praesent nec augue arcu. Proin suscipit accumsan interdum.</p>
+            </div> <!-- .bloque -->
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_3.png" alt="porque comprar">
+                <h3 class="bloque__titulo shadow">Envío gratis</h3>
+                <p>Praesent nec augue arcu. Proin suscipit accumsan interdum.</p>
+            </div> <!-- .bloque -->
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_4.png" alt="porque comprar">
+                <h3 class="bloque__titulo shadow">La mejor calidad</h3>
+                <p>Praesent nec augue arcu. Proin suscipit accumsan interdum.</p>
+            </div> <!-- .bloque -->
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos Reservados 2022</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <meta name="author" content="Bruno Sena">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace shadow" href="index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fdc50f" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="9" cy="19" r="2" />
+                <circle cx="17" cy="19" r="2" />
+                <path d="M3 3h2l2 12a3 3 0 0 0 3 2h7a3 3 0 0 0 3 -2l1 -7h-15.2" />
+            </svg> Tienda</a>
+        <a class="navegacion__enlace shadow" href="nosotros.html">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fdc50f" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="12" cy="7" r="4" />
+                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+            </svg> Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1 class="shadow">React JS</h1>
+
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/3.jpg" alt="Imagen del producto">
+
+            <div class="camisa__contenido">
+                <p>Maecenas sit amet quam tellus. Nunc non erat sit amet diam condimentum rhoncus. Pellentesque viverra, urna id suscipit varius, ipsum velit dictum ex, vitae mattis lorem ipsum at ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam accumsan vitae velit non hendrerit. Proin ex neque, venenatis fringilla pharetra a, faucibus ut lacus.</p>
+
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>-- Seleccionar talla --</option>
+                        <option>Chica</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos Reservados 2022</p>
+    </footer>
+</body>
+</html> 
